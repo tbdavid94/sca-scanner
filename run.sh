@@ -4,4 +4,5 @@
 echo "==== DEPSCAN & SCAN ===="
 python3 /usr/local/src/scan
 echo "==== FOSSA CLI ===="
-logs analyze -o > reports/logs-output.json
+fossa analyze -o > reports/logs-output.json
+echo "DONE"
