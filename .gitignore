@@ -136,7 +136,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .coverage
-reports/
 AppDir/
 appimage-builder-cache/
 *.AppImage
