@@ -140,3 +140,6 @@ AppDir/
 appimage-builder-cache/
 *.AppImage
 *.AppImage.zsync
+
+worker_scan
+worker_search

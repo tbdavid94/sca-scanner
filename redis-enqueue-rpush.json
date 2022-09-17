@@ -1,0 +1,13 @@
+{
+  "queue": "sca-scanner",
+  "class": "Add",
+  "args": {
+    "ip": "192.168.5.1",
+    "server": "22",
+    "port": "22",
+    "path": "/user/local"
+  },
+  "jid": "cb440788599bfb619933b843",
+  "enqueued_at": 1663392129.4494379,
+  "at": 1663392129.449437
+}
