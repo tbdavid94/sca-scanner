@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  sca_scan_queue:
+    container_name: scan_queue
+    build:
+      context: .
+      dockerfile: scan.Dockerfile
+    image: scan_queue:latest
+    volumes:
+      - ./resources:/home/resources
+    network_mode: "host"
+    depends_on:
+      - redis
+    entrypoint: ["/home/worker_scan"]
+
+  sca_search_queue:
+    container_name: search_queue
+    build:
+      context: .
+      dockerfile: search.Dockerfile
+    image: search_queue:latest
+    volumes:
+      - ./resources:/home/resources
+    network_mode: "host"
+    depends_on:
+      - redis
+    entrypoint: ["/home/worker_search"]
+
+  redis:
+    image: redis
+    container_name: redis
+    ports:
+      - "6380:6379"
+
+volumes:
+  sca-scan-queue:
+    driver: "local"
+  sca-scan-search:
+    driver: "local"
+
+networks:
+  local:

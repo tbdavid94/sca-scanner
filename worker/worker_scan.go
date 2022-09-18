@@ -1,9 +1,24 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
+	"github.com/joho/godotenv"
 	"github.com/jrallison/go-workers"
+	"io/ioutil"
+	"log"
+	"os"
 )
+
+type Salary struct {
+	Basic, HRA, TA float64
+}
+
+type Employee struct {
+	FirstName, LastName, Email string
+	Age                        int
+	MonthlySalary              []Salary
+}
 
 func scanJob(message *workers.Msg) {
 	// do something with your message
@@ -15,6 +30,40 @@ func scanJob(message *workers.Msg) {
 	fmt.Println("Scan dependency")
 	fmt.Println("Parser output fossa")
 	fmt.Println("Dispatch job search CVE elasticsearch + export result")
+	//TODO test share volume 2 container
+	data := Employee{
+		FirstName: "Mark",
+		LastName:  "Jones",
+		Email:     "mark@gmail.com",
+		Age:       25,
+		MonthlySalary: []Salary{
+			Salary{
+				Basic: 15000.00,
+				HRA:   5000.00,
+				TA:    2000.00,
+			},
+			Salary{
+				Basic: 16000.00,
+				HRA:   5000.00,
+				TA:    2100.00,
+			},
+			Salary{
+				Basic: 17000.00,
+				HRA:   5000.00,
+				TA:    2200.00,
+			},
+		},
+	}
+
+	dirApp := "resources/app-" + message.Jid()
+	if err := os.Mkdir(dirApp, os.ModePerm); err != nil {
+		log.Fatal(err)
+	}
+
+	file, _ := json.MarshalIndent(data, "", " ")
+
+	_ = ioutil.WriteFile(dirApp+"/test.json", file, 0644)
+
 	workers.Enqueue("sca-scanner-parser", "Add", PayloadParser{
 		message.Jid(),
 	})
@@ -30,12 +79,16 @@ func (r *scanMiddleware) Call(queue string, message *workers.Msg, next func() bo
 }
 
 func main() {
+	err := godotenv.Load()
+	if err != nil {
+		log.Fatal("Error loading .env file")
+	}
 	workers.Configure(map[string]string{
-		"namespace": "asset-sca",
-		"server":    "127.0.0.1:6379",
-		"database":  "0",
-		"pool":      "30",
-		"process":   "1",
+		"namespace": os.Getenv("REDIS_NAMESPACE"),
+		"server":    os.Getenv("REDIS_SERVER"),
+		"database":  os.Getenv("REDIS_DB"),
+		"pool":      os.Getenv("REDIS_POOL"),
+		"process":   os.Getenv("REDIS_PROCESS"),
 	})
 
 	workers.Middleware.Append(&scanMiddleware{})
