@@ -135,3 +135,4 @@ Some of the reports would be converted to a standard called [SARIF](https://sari
 - Visual Studio extension - https://marketplace.visualstudio.com/items?itemName=WDGIS.MicrosoftSarifViewer
 - Azure DevOps extension - https://marketplace.visualstudio.com/items?itemName=shiftleftsecurity.sl-scan-results
 
+POSTMAN: https://www.getpostman.com/collections/aca4a50c32ef631cda31

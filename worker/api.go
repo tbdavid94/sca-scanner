@@ -41,6 +41,7 @@ func main() {
 	router := gin.Default()
 	router.GET("/ping", ping)
 	router.POST("/scan/add", addScan)
+	router.GET("/scan/:id", statusScan)
 
 	err := godotenv.Load()
 	if err != nil {
@@ -95,4 +96,14 @@ func addScan(c *gin.Context) {
 		"data":    wk,
 	})
 
+}
+
+func statusScan(c *gin.Context) {
+	id := c.Param("id")
+	fmt.Println(id)
+	c.IndentedJSON(http.StatusOK, gin.H{
+		"code":    http.StatusOK,
+		"message": "get status job success",
+		"data":    id,
+	})
 }
