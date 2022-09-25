@@ -1,0 +1,722 @@
+[
+  {
+    "name": "github.com/bitly/go-simplejson",
+    "type": "go",
+    "version": "v0.5.0"
+  },
+  {
+    "name": "github.com/bmizerany/assert",
+    "type": "go",
+    "version": "b7ed37b82869"
+  },
+  {
+    "name": "github.com/creack/pty",
+    "type": "go",
+    "version": "v1.1.9"
+  },
+  {
+    "name": "github.com/customerio/gospec",
+    "type": "go",
+    "version": "a5cc0e48aa39"
+  },
+  {
+    "name": "github.com/davecgh/go-spew",
+    "type": "go",
+    "version": "v1.1.1"
+  },
+  {
+    "name": "github.com/garyburd/redigo",
+    "type": "go",
+    "version": "v1.6.4"
+  },
+  {
+    "name": "github.com/gin-contrib/sse",
+    "type": "go",
+    "version": "v0.1.0"
+  },
+  {
+    "name": "github.com/gin-gonic/gin",
+    "type": "go",
+    "version": "v1.8.1"
+  },
+  {
+    "name": "github.com/go-playground/assert/v2",
+    "type": "go",
+    "version": "v2.0.1"
+  },
+  {
+    "name": "github.com/go-playground/locales",
+    "type": "go",
+    "version": "v0.14.0"
+  },
+  {
+    "name": "github.com/go-playground/universal-translator",
+    "type": "go",
+    "version": "v0.18.0"
+  },
+  {
+    "name": "github.com/go-playground/validator/v10",
+    "type": "go",
+    "version": "v10.10.0"
+  },
+  {
+    "name": "github.com/goccy/go-json",
+    "type": "go",
+    "version": "v0.9.7"
+  },
+  {
+    "name": "github.com/golang/protobuf",
+    "type": "go",
+    "version": "v1.5.0"
+  },
+  {
+    "name": "github.com/google/go-cmp",
+    "type": "go",
+    "version": "v0.5.5"
+  },
+  {
+    "name": "github.com/google/gofuzz",
+    "type": "go",
+    "version": "v1.0.0"
+  },
+  {
+    "name": "github.com/joho/godotenv",
+    "type": "go",
+    "version": "v1.4.0"
+  },
+  {
+    "name": "github.com/jrallison/go-workers",
+    "type": "go",
+    "version": "dbf81d0b75bb"
+  },
+  {
+    "name": "github.com/json-iterator/go",
+    "type": "go",
+    "version": "v1.1.12"
+  },
+  {
+    "name": "github.com/kr/pretty",
+    "type": "go",
+    "version": "v0.3.0"
+  },
+  {
+    "name": "github.com/kr/pty",
+    "type": "go",
+    "version": "v1.1.1"
+  },
+  {
+    "name": "github.com/kr/text",
+    "type": "go",
+    "version": "v0.2.0"
+  },
+  {
+    "name": "github.com/leodido/go-urn",
+    "type": "go",
+    "version": "v1.2.1"
+  },
+  {
+    "name": "github.com/mattn/go-isatty",
+    "type": "go",
+    "version": "v0.0.14"
+  },
+  {
+    "name": "github.com/modern-go/concurrent",
+    "type": "go",
+    "version": "e0a39a4cb421"
+  },
+  {
+    "name": "github.com/modern-go/reflect2",
+    "type": "go",
+    "version": "v1.0.2"
+  },
+  {
+    "name": "github.com/pelletier/go-toml/v2",
+    "type": "go",
+    "version": "v2.0.1"
+  },
+  {
+    "name": "github.com/pkg/diff",
+    "type": "go",
+    "version": "20ebb0f2a09e"
+  },
+  {
+    "name": "github.com/pmezard/go-difflib",
+    "type": "go",
+    "version": "v1.0.0"
+  },
+  {
+    "name": "github.com/rogpeppe/go-internal",
+    "type": "go",
+    "version": "v1.8.0"
+  },
+  {
+    "name": "github.com/stretchr/objx",
+    "type": "go",
+    "version": "v0.1.0"
+  },
+  {
+    "name": "github.com/stretchr/testify",
+    "type": "go",
+    "version": "v1.7.1"
+  },
+  {
+    "name": "github.com/ugorji/go",
+    "type": "go",
+    "version": "v1.2.7"
+  },
+  {
+    "name": "github.com/ugorji/go/codec",
+    "type": "go",
+    "version": "v1.2.7"
+  },
+  {
+    "name": "golang.org/x/crypto",
+    "type": "go",
+    "version": "a769d52b0f97"
+  },
+  {
+    "name": "golang.org/x/net",
+    "type": "go",
+    "version": "e18ecbb05110"
+  },
+  {
+    "name": "golang.org/x/sys",
+    "type": "go",
+    "version": "e5e7981a1069"
+  },
+  {
+    "name": "golang.org/x/term",
+    "type": "go",
+    "version": "7de9c90e9dd1"
+  },
+  {
+    "name": "golang.org/x/text",
+    "type": "go",
+    "version": "v0.3.6"
+  },
+  {
+    "name": "golang.org/x/tools",
+    "type": "go",
+    "version": "90fa682c2a6e"
+  },
+  {
+    "name": "golang.org/x/xerrors",
+    "type": "go",
+    "version": "9bdfabe68543"
+  },
+  {
+    "name": "google.golang.org/protobuf",
+    "type": "go",
+    "version": "v1.28.0"
+  },
+  {
+    "name": "gopkg.in/check.v1",
+    "type": "go",
+    "version": "10cb98267c6c"
+  },
+  {
+    "name": "gopkg.in/errgo.v2",
+    "type": "go",
+    "version": "v2.1.0"
+  },
+  {
+    "name": "gopkg.in/yaml.v2",
+    "type": "go",
+    "version": "v2.4.0"
+  },
+  {
+    "name": "gopkg.in/yaml.v3",
+    "type": "go",
+    "version": "496545a6307b"
+  },
+  {
+    "name": "github.com/bitly/go-simplejson",
+    "type": "go",
+    "version": "v0.5.0"
+  },
+  {
+    "name": "github.com/bmizerany/assert",
+    "type": "go",
+    "version": "b7ed37b82869"
+  },
+  {
+    "name": "github.com/creack/pty",
+    "type": "go",
+    "version": "v1.1.9"
+  },
+  {
+    "name": "github.com/customerio/gospec",
+    "type": "go",
+    "version": "a5cc0e48aa39"
+  },
+  {
+    "name": "github.com/davecgh/go-spew",
+    "type": "go",
+    "version": "v1.1.1"
+  },
+  {
+    "name": "github.com/garyburd/redigo",
+    "type": "go",
+    "version": "v1.6.4"
+  },
+  {
+    "name": "github.com/gin-contrib/sse",
+    "type": "go",
+    "version": "v0.1.0"
+  },
+  {
+    "name": "github.com/gin-gonic/gin",
+    "type": "go",
+    "version": "v1.8.1"
+  },
+  {
+    "name": "github.com/go-playground/assert/v2",
+    "type": "go",
+    "version": "v2.0.1"
+  },
+  {
+    "name": "github.com/go-playground/locales",
+    "type": "go",
+    "version": "v0.14.0"
+  },
+  {
+    "name": "github.com/go-playground/universal-translator",
+    "type": "go",
+    "version": "v0.18.0"
+  },
+  {
+    "name": "github.com/go-playground/validator/v10",
+    "type": "go",
+    "version": "v10.10.0"
+  },
+  {
+    "name": "github.com/goccy/go-json",
+    "type": "go",
+    "version": "v0.9.7"
+  },
+  {
+    "name": "github.com/golang/protobuf",
+    "type": "go",
+    "version": "v1.5.0"
+  },
+  {
+    "name": "github.com/google/go-cmp",
+    "type": "go",
+    "version": "v0.5.5"
+  },
+  {
+    "name": "github.com/google/gofuzz",
+    "type": "go",
+    "version": "v1.0.0"
+  },
+  {
+    "name": "github.com/joho/godotenv",
+    "type": "go",
+    "version": "v1.4.0"
+  },
+  {
+    "name": "github.com/jrallison/go-workers",
+    "type": "go",
+    "version": "dbf81d0b75bb"
+  },
+  {
+    "name": "github.com/json-iterator/go",
+    "type": "go",
+    "version": "v1.1.12"
+  },
+  {
+    "name": "github.com/kr/pretty",
+    "type": "go",
+    "version": "v0.3.0"
+  },
+  {
+    "name": "github.com/kr/pty",
+    "type": "go",
+    "version": "v1.1.1"
+  },
+  {
+    "name": "github.com/kr/text",
+    "type": "go",
+    "version": "v0.2.0"
+  },
+  {
+    "name": "github.com/leodido/go-urn",
+    "type": "go",
+    "version": "v1.2.1"
+  },
+  {
+    "name": "github.com/mattn/go-isatty",
+    "type": "go",
+    "version": "v0.0.14"
+  },
+  {
+    "name": "github.com/modern-go/concurrent",
+    "type": "go",
+    "version": "e0a39a4cb421"
+  },
+  {
+    "name": "github.com/modern-go/reflect2",
+    "type": "go",
+    "version": "v1.0.2"
+  },
+  {
+    "name": "github.com/pelletier/go-toml/v2",
+    "type": "go",
+    "version": "v2.0.1"
+  },
+  {
+    "name": "github.com/pkg/diff",
+    "type": "go",
+    "version": "20ebb0f2a09e"
+  },
+  {
+    "name": "github.com/pmezard/go-difflib",
+    "type": "go",
+    "version": "v1.0.0"
+  },
+  {
+    "name": "github.com/rogpeppe/go-internal",
+    "type": "go",
+    "version": "v1.8.0"
+  },
+  {
+    "name": "github.com/stretchr/objx",
+    "type": "go",
+    "version": "v0.1.0"
+  },
+  {
+    "name": "github.com/stretchr/testify",
+    "type": "go",
+    "version": "v1.7.1"
+  },
+  {
+    "name": "github.com/ugorji/go",
+    "type": "go",
+    "version": "v1.2.7"
+  },
+  {
+    "name": "github.com/ugorji/go/codec",
+    "type": "go",
+    "version": "v1.2.7"
+  },
+  {
+    "name": "golang.org/x/crypto",
+    "type": "go",
+    "version": "a769d52b0f97"
+  },
+  {
+    "name": "golang.org/x/net",
+    "type": "go",
+    "version": "e18ecbb05110"
+  },
+  {
+    "name": "golang.org/x/sys",
+    "type": "go",
+    "version": "e5e7981a1069"
+  },
+  {
+    "name": "golang.org/x/term",
+    "type": "go",
+    "version": "7de9c90e9dd1"
+  },
+  {
+    "name": "golang.org/x/text",
+    "type": "go",
+    "version": "v0.3.6"
+  },
+  {
+    "name": "golang.org/x/tools",
+    "type": "go",
+    "version": "90fa682c2a6e"
+  },
+  {
+    "name": "golang.org/x/xerrors",
+    "type": "go",
+    "version": "9bdfabe68543"
+  },
+  {
+    "name": "google.golang.org/protobuf",
+    "type": "go",
+    "version": "v1.28.0"
+  },
+  {
+    "name": "gopkg.in/check.v1",
+    "type": "go",
+    "version": "10cb98267c6c"
+  },
+  {
+    "name": "gopkg.in/errgo.v2",
+    "type": "go",
+    "version": "v2.1.0"
+  },
+  {
+    "name": "gopkg.in/yaml.v2",
+    "type": "go",
+    "version": "v2.4.0"
+  },
+  {
+    "name": "gopkg.in/yaml.v3",
+    "type": "go",
+    "version": "496545a6307b"
+  },
+  {
+    "name": "github.com/gin-gonic/gin",
+    "type": "go",
+    "version": "v1.8.1"
+  },
+  {
+    "name": "github.com/joho/godotenv",
+    "type": "go",
+    "version": "v1.4.0"
+  },
+  {
+    "name": "github.com/jrallison/go-workers",
+    "type": "go",
+    "version": "dbf81d0b75bb"
+  },
+  {
+    "name": "github.com/gin-gonic/gin",
+    "type": "go",
+    "version": "v1.8.1"
+  },
+  {
+    "name": "github.com/joho/godotenv",
+    "type": "go",
+    "version": "v1.4.0"
+  },
+  {
+    "name": "github.com/jrallison/go-workers",
+    "type": "go",
+    "version": "dbf81d0b75bb"
+  },
+  {
+    "name": "github.com/bitly/go-simplejson",
+    "type": "GoType",
+    "version": "v0.5.0"
+  },
+  {
+    "name": "github.com/bmizerany/assert",
+    "type": "GoType",
+    "version": "b7ed37b82869"
+  },
+  {
+    "name": "github.com/creack/pty",
+    "type": "GoType",
+    "version": "v1.1.9"
+  },
+  {
+    "name": "github.com/customerio/gospec",
+    "type": "GoType",
+    "version": "a5cc0e48aa39"
+  },
+  {
+    "name": "github.com/davecgh/go-spew",
+    "type": "GoType",
+    "version": "v1.1.1"
+  },
+  {
+    "name": "github.com/garyburd/redigo",
+    "type": "GoType",
+    "version": "v1.6.4"
+  },
+  {
+    "name": "github.com/gin-contrib/sse",
+    "type": "GoType",
+    "version": "v0.1.0"
+  },
+  {
+    "name": "github.com/gin-gonic/gin",
+    "type": "GoType",
+    "version": "v1.8.1"
+  },
+  {
+    "name": "github.com/go-playground/assert/v2",
+    "type": "GoType",
+    "version": "v2.0.1"
+  },
+  {
+    "name": "github.com/go-playground/locales",
+    "type": "GoType",
+    "version": "v0.14.0"
+  },
+  {
+    "name": "github.com/go-playground/universal-translator",
+    "type": "GoType",
+    "version": "v0.18.0"
+  },
+  {
+    "name": "github.com/go-playground/validator/v10",
+    "type": "GoType",
+    "version": "v10.10.0"
+  },
+  {
+    "name": "github.com/goccy/go-json",
+    "type": "GoType",
+    "version": "v0.9.7"
+  },
+  {
+    "name": "github.com/golang/protobuf",
+    "type": "GoType",
+    "version": "v1.5.0"
+  },
+  {
+    "name": "github.com/google/go-cmp",
+    "type": "GoType",
+    "version": "v0.5.5"
+  },
+  {
+    "name": "github.com/google/gofuzz",
+    "type": "GoType",
+    "version": "v1.0.0"
+  },
+  {
+    "name": "github.com/joho/godotenv",
+    "type": "GoType",
+    "version": "v1.4.0"
+  },
+  {
+    "name": "github.com/jrallison/go-workers",
+    "type": "GoType",
+    "version": "dbf81d0b75bb"
+  },
+  {
+    "name": "github.com/json-iterator/go",
+    "type": "GoType",
+    "version": "v1.1.12"
+  },
+  {
+    "name": "github.com/kr/pretty",
+    "type": "GoType",
+    "version": "v0.3.0"
+  },
+  {
+    "name": "github.com/kr/pty",
+    "type": "GoType",
+    "version": "v1.1.1"
+  },
+  {
+    "name": "github.com/kr/text",
+    "type": "GoType",
+    "version": "v0.2.0"
+  },
+  {
+    "name": "github.com/leodido/go-urn",
+    "type": "GoType",
+    "version": "v1.2.1"
+  },
+  {
+    "name": "github.com/mattn/go-isatty",
+    "type": "GoType",
+    "version": "v0.0.14"
+  },
+  {
+    "name": "github.com/modern-go/concurrent",
+    "type": "GoType",
+    "version": "e0a39a4cb421"
+  },
+  {
+    "name": "github.com/modern-go/reflect2",
+    "type": "GoType",
+    "version": "v1.0.2"
+  },
+  {
+    "name": "github.com/pelletier/go-toml/v2",
+    "type": "GoType",
+    "version": "v2.0.1"
+  },
+  {
+    "name": "github.com/pkg/diff",
+    "type": "GoType",
+    "version": "20ebb0f2a09e"
+  },
+  {
+    "name": "github.com/pmezard/go-difflib",
+    "type": "GoType",
+    "version": "v1.0.0"
+  },
+  {
+    "name": "github.com/rogpeppe/go-internal",
+    "type": "GoType",
+    "version": "v1.8.0"
+  },
+  {
+    "name": "github.com/stretchr/objx",
+    "type": "GoType",
+    "version": "v0.1.0"
+  },
+  {
+    "name": "github.com/stretchr/testify",
+    "type": "GoType",
+    "version": "v1.7.1"
+  },
+  {
+    "name": "github.com/ugorji/go",
+    "type": "GoType",
+    "version": "v1.2.7"
+  },
+  {
+    "name": "github.com/ugorji/go/codec",
+    "type": "GoType",
+    "version": "v1.2.7"
+  },
+  {
+    "name": "golang.org/x/crypto",
+    "type": "GoType",
+    "version": "a769d52b0f97"
+  },
+  {
+    "name": "golang.org/x/net",
+    "type": "GoType",
+    "version": "e18ecbb05110"
+  },
+  {
+    "name": "golang.org/x/sys",
+    "type": "GoType",
+    "version": "e5e7981a1069"
+  },
+  {
+    "name": "golang.org/x/term",
+    "type": "GoType",
+    "version": "7de9c90e9dd1"
+  },
+  {
+    "name": "golang.org/x/text",
+    "type": "GoType",
+    "version": "v0.3.6"
+  },
+  {
+    "name": "golang.org/x/tools",
+    "type": "GoType",
+    "version": "90fa682c2a6e"
+  },
+  {
+    "name": "golang.org/x/xerrors",
+    "type": "GoType",
+    "version": "9bdfabe68543"
+  },
+  {
+    "name": "google.golang.org/protobuf",
+    "type": "GoType",
+    "version": "v1.28.0"
+  },
+  {
+    "name": "gopkg.in/check.v1",
+    "type": "GoType",
+    "version": "10cb98267c6c"
+  },
+  {
+    "name": "gopkg.in/errgo.v2",
+    "type": "GoType",
+    "version": "v2.1.0"
+  },
+  {
+    "name": "gopkg.in/yaml.v2",
+    "type": "GoType",
+    "version": "v2.4.0"
+  },
+  {
+    "name": "gopkg.in/yaml.v3",
+    "type": "GoType",
+    "version": "496545a6307b"
+  }
+]

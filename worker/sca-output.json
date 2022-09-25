@@ -1,0 +1,1188 @@
+{
+  "projects": [
+    {
+      "graph": {
+        "assocs": [
+          [
+            7,
+            [
+              4,
+              6,
+              9,
+              10,
+              11,
+              12,
+              18,
+              22,
+              23,
+              24,
+              25,
+              26,
+              28,
+              31,
+              33,
+              34,
+              35,
+              36,
+              38,
+              41,
+              44,
+              45
+            ]
+          ],
+          [
+            9,
+            [
+              38
+            ]
+          ],
+          [
+            10,
+            [
+              9
+            ]
+          ],
+          [
+            11,
+            [
+              4,
+              8,
+              9,
+              10,
+              19,
+              22,
+              29,
+              34,
+              36,
+              38,
+              42,
+              45
+            ]
+          ],
+          [
+            13,
+            [
+              14
+            ]
+          ],
+          [
+            14,
+            [
+              40
+            ]
+          ],
+          [
+            18,
+            [
+              4,
+              15,
+              24,
+              25
+            ]
+          ],
+          [
+            19,
+            [
+              21
+            ]
+          ],
+          [
+            21,
+            [
+              2
+            ]
+          ],
+          [
+            26,
+            [
+              31
+            ]
+          ],
+          [
+            29,
+            [
+              27,
+              43
+            ]
+          ],
+          [
+            31,
+            [
+              28,
+              30
+            ]
+          ],
+          [
+            32,
+            [
+              33
+            ]
+          ],
+          [
+            33,
+            [
+              32
+            ]
+          ],
+          [
+            34,
+            [
+              35,
+              37
+            ]
+          ],
+          [
+            35,
+            [
+              37
+            ]
+          ],
+          [
+            38,
+            [
+              39
+            ]
+          ],
+          [
+            41,
+            [
+              13,
+              14
+            ]
+          ]
+        ],
+        "deps": [
+          {
+            "locations": [],
+            "name": "github.com/bitly/go-simplejson",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "v0.5.0"
+            }
+          },
+          {
+            "locations": [],
+            "name": "github.com/bmizerany/assert",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "b7ed37b82869"
+            }
+          },
+          {
+            "locations": [],
+            "name": "github.com/creack/pty",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "v1.1.9"
+            }
+          },
+          {
+            "locations": [],
+            "name": "github.com/customerio/gospec",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "a5cc0e48aa39"
+            }
+          },
+          {
+            "locations": [],
+            "name": "github.com/davecgh/go-spew",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "v1.1.1"
+            }
+          },
+          {
+            "locations": [],
+            "name": "github.com/garyburd/redigo",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "v1.6.4"
+            }
+          },
+          {
+            "locations": [],
+            "name": "github.com/gin-contrib/sse",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "v0.1.0"
+            }
+          },
+          {
+            "locations": [],
+            "name": "github.com/gin-gonic/gin",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "v1.8.1"
+            }
+          },
+          {
+            "locations": [],
+            "name": "github.com/go-playground/assert/v2",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "v2.0.1"
+            }
+          },
+          {
+            "locations": [],
+            "name": "github.com/go-playground/locales",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "v0.14.0"
+            }
+          },
+          {
+            "locations": [],
+            "name": "github.com/go-playground/universal-translator",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "v0.18.0"
+            }
+          },
+          {
+            "locations": [],
+            "name": "github.com/go-playground/validator/v10",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "v10.10.0"
+            }
+          },
+          {
+            "locations": [],
+            "name": "github.com/goccy/go-json",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "v0.9.7"
+            }
+          },
+          {
+            "locations": [],
+            "name": "github.com/golang/protobuf",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "v1.5.0"
+            }
+          },
+          {
+            "locations": [],
+            "name": "github.com/google/go-cmp",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "v0.5.5"
+            }
+          },
+          {
+            "locations": [],
+            "name": "github.com/google/gofuzz",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "v1.0.0"
+            }
+          },
+          {
+            "locations": [],
+            "name": "github.com/joho/godotenv",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "v1.4.0"
+            }
+          },
+          {
+            "locations": [],
+            "name": "github.com/jrallison/go-workers",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "dbf81d0b75bb"
+            }
+          },
+          {
+            "locations": [],
+            "name": "github.com/json-iterator/go",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "v1.1.12"
+            }
+          },
+          {
+            "locations": [],
+            "name": "github.com/kr/pretty",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "v0.3.0"
+            }
+          },
+          {
+            "locations": [],
+            "name": "github.com/kr/pty",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "v1.1.1"
+            }
+          },
+          {
+            "locations": [],
+            "name": "github.com/kr/text",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "v0.2.0"
+            }
+          },
+          {
+            "locations": [],
+            "name": "github.com/leodido/go-urn",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "v1.2.1"
+            }
+          },
+          {
+            "locations": [],
+            "name": "github.com/mattn/go-isatty",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "v0.0.14"
+            }
+          },
+          {
+            "locations": [],
+            "name": "github.com/modern-go/concurrent",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "e0a39a4cb421"
+            }
+          },
+          {
+            "locations": [],
+            "name": "github.com/modern-go/reflect2",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "v1.0.2"
+            }
+          },
+          {
+            "locations": [],
+            "name": "github.com/pelletier/go-toml/v2",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "v2.0.1"
+            }
+          },
+          {
+            "locations": [],
+            "name": "github.com/pkg/diff",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "20ebb0f2a09e"
+            }
+          },
+          {
+            "locations": [],
+            "name": "github.com/pmezard/go-difflib",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "v1.0.0"
+            }
+          },
+          {
+            "locations": [],
+            "name": "github.com/rogpeppe/go-internal",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "v1.8.0"
+            }
+          },
+          {
+            "locations": [],
+            "name": "github.com/stretchr/objx",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "v0.1.0"
+            }
+          },
+          {
+            "locations": [],
+            "name": "github.com/stretchr/testify",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "v1.7.1"
+            }
+          },
+          {
+            "locations": [],
+            "name": "github.com/ugorji/go",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "v1.2.7"
+            }
+          },
+          {
+            "locations": [],
+            "name": "github.com/ugorji/go/codec",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "v1.2.7"
+            }
+          },
+          {
+            "locations": [],
+            "name": "golang.org/x/crypto",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "a769d52b0f97"
+            }
+          },
+          {
+            "locations": [],
+            "name": "golang.org/x/net",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "e18ecbb05110"
+            }
+          },
+          {
+            "locations": [],
+            "name": "golang.org/x/sys",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "e5e7981a1069"
+            }
+          },
+          {
+            "locations": [],
+            "name": "golang.org/x/term",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "7de9c90e9dd1"
+            }
+          },
+          {
+            "locations": [],
+            "name": "golang.org/x/text",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "v0.3.6"
+            }
+          },
+          {
+            "locations": [],
+            "name": "golang.org/x/tools",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "90fa682c2a6e"
+            }
+          },
+          {
+            "locations": [],
+            "name": "golang.org/x/xerrors",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "9bdfabe68543"
+            }
+          },
+          {
+            "locations": [],
+            "name": "google.golang.org/protobuf",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "v1.28.0"
+            }
+          },
+          {
+            "locations": [],
+            "name": "gopkg.in/check.v1",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "10cb98267c6c"
+            }
+          },
+          {
+            "locations": [],
+            "name": "gopkg.in/errgo.v2",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "v2.1.0"
+            }
+          },
+          {
+            "locations": [],
+            "name": "gopkg.in/yaml.v2",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "v2.4.0"
+            }
+          },
+          {
+            "locations": [],
+            "name": "gopkg.in/yaml.v3",
+            "tags": {},
+            "type": "GoType",
+            "version": {
+              "type": "EQUAL",
+              "value": "496545a6307b"
+            }
+          }
+        ],
+        "direct": [
+          7,
+          16,
+          17
+        ]
+      },
+      "path": "/Users/htdocs/sast-scan/worker/",
+      "type": "gomod"
+    }
+  ],
+  "sourceUnits": [
+    {
+      "AdditionalDependencyData": null,
+      "Build": {
+        "Artifact": "default",
+        "Dependencies": [
+          {
+            "imports": [],
+            "locator": "go+github.com/bitly/go-simplejson$v0.5.0"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/bmizerany/assert$b7ed37b82869"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/creack/pty$v1.1.9"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/customerio/gospec$a5cc0e48aa39"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/davecgh/go-spew$v1.1.1"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/garyburd/redigo$v1.6.4"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/gin-contrib/sse$v0.1.0"
+          },
+          {
+            "imports": [
+              "go+github.com/davecgh/go-spew$v1.1.1",
+              "go+github.com/gin-contrib/sse$v0.1.0",
+              "go+github.com/go-playground/locales$v0.14.0",
+              "go+github.com/go-playground/universal-translator$v0.18.0",
+              "go+github.com/go-playground/validator/v10$v10.10.0",
+              "go+github.com/goccy/go-json$v0.9.7",
+              "go+github.com/json-iterator/go$v1.1.12",
+              "go+github.com/leodido/go-urn$v1.2.1",
+              "go+github.com/mattn/go-isatty$v0.0.14",
+              "go+github.com/modern-go/concurrent$e0a39a4cb421",
+              "go+github.com/modern-go/reflect2$v1.0.2",
+              "go+github.com/pelletier/go-toml/v2$v2.0.1",
+              "go+github.com/pmezard/go-difflib$v1.0.0",
+              "go+github.com/stretchr/testify$v1.7.1",
+              "go+github.com/ugorji/go/codec$v1.2.7",
+              "go+golang.org/x/crypto$a769d52b0f97",
+              "go+golang.org/x/net$e18ecbb05110",
+              "go+golang.org/x/sys$e5e7981a1069",
+              "go+golang.org/x/text$v0.3.6",
+              "go+google.golang.org/protobuf$v1.28.0",
+              "go+gopkg.in/yaml.v2$v2.4.0",
+              "go+gopkg.in/yaml.v3$496545a6307b"
+            ],
+            "locator": "go+github.com/gin-gonic/gin$v1.8.1"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/go-playground/assert/v2$v2.0.1"
+          },
+          {
+            "imports": [
+              "go+golang.org/x/text$v0.3.6"
+            ],
+            "locator": "go+github.com/go-playground/locales$v0.14.0"
+          },
+          {
+            "imports": [
+              "go+github.com/go-playground/locales$v0.14.0"
+            ],
+            "locator": "go+github.com/go-playground/universal-translator$v0.18.0"
+          },
+          {
+            "imports": [
+              "go+github.com/davecgh/go-spew$v1.1.1",
+              "go+github.com/go-playground/assert/v2$v2.0.1",
+              "go+github.com/go-playground/locales$v0.14.0",
+              "go+github.com/go-playground/universal-translator$v0.18.0",
+              "go+github.com/kr/pretty$v0.3.0",
+              "go+github.com/leodido/go-urn$v1.2.1",
+              "go+github.com/rogpeppe/go-internal$v1.8.0",
+              "go+golang.org/x/crypto$a769d52b0f97",
+              "go+golang.org/x/sys$e5e7981a1069",
+              "go+golang.org/x/text$v0.3.6",
+              "go+gopkg.in/check.v1$10cb98267c6c",
+              "go+gopkg.in/yaml.v3$496545a6307b"
+            ],
+            "locator": "go+github.com/go-playground/validator/v10$v10.10.0"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/goccy/go-json$v0.9.7"
+          },
+          {
+            "imports": [
+              "go+github.com/google/go-cmp$v0.5.5"
+            ],
+            "locator": "go+github.com/golang/protobuf$v1.5.0"
+          },
+          {
+            "imports": [
+              "go+golang.org/x/xerrors$9bdfabe68543"
+            ],
+            "locator": "go+github.com/google/go-cmp$v0.5.5"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/google/gofuzz$v1.0.0"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/joho/godotenv$v1.4.0"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/jrallison/go-workers$dbf81d0b75bb"
+          },
+          {
+            "imports": [
+              "go+github.com/davecgh/go-spew$v1.1.1",
+              "go+github.com/google/gofuzz$v1.0.0",
+              "go+github.com/modern-go/concurrent$e0a39a4cb421",
+              "go+github.com/modern-go/reflect2$v1.0.2"
+            ],
+            "locator": "go+github.com/json-iterator/go$v1.1.12"
+          },
+          {
+            "imports": [
+              "go+github.com/kr/text$v0.2.0"
+            ],
+            "locator": "go+github.com/kr/pretty$v0.3.0"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/kr/pty$v1.1.1"
+          },
+          {
+            "imports": [
+              "go+github.com/creack/pty$v1.1.9"
+            ],
+            "locator": "go+github.com/kr/text$v0.2.0"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/leodido/go-urn$v1.2.1"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/mattn/go-isatty$v0.0.14"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/modern-go/concurrent$e0a39a4cb421"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/modern-go/reflect2$v1.0.2"
+          },
+          {
+            "imports": [
+              "go+github.com/stretchr/testify$v1.7.1"
+            ],
+            "locator": "go+github.com/pelletier/go-toml/v2$v2.0.1"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/pkg/diff$20ebb0f2a09e"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/pmezard/go-difflib$v1.0.0"
+          },
+          {
+            "imports": [
+              "go+github.com/pkg/diff$20ebb0f2a09e",
+              "go+gopkg.in/errgo.v2$v2.1.0"
+            ],
+            "locator": "go+github.com/rogpeppe/go-internal$v1.8.0"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/stretchr/objx$v0.1.0"
+          },
+          {
+            "imports": [
+              "go+github.com/pmezard/go-difflib$v1.0.0",
+              "go+github.com/stretchr/objx$v0.1.0"
+            ],
+            "locator": "go+github.com/stretchr/testify$v1.7.1"
+          },
+          {
+            "imports": [
+              "go+github.com/ugorji/go/codec$v1.2.7"
+            ],
+            "locator": "go+github.com/ugorji/go$v1.2.7"
+          },
+          {
+            "imports": [
+              "go+github.com/ugorji/go$v1.2.7"
+            ],
+            "locator": "go+github.com/ugorji/go/codec$v1.2.7"
+          },
+          {
+            "imports": [
+              "go+golang.org/x/net$e18ecbb05110",
+              "go+golang.org/x/term$7de9c90e9dd1"
+            ],
+            "locator": "go+golang.org/x/crypto$a769d52b0f97"
+          },
+          {
+            "imports": [
+              "go+golang.org/x/term$7de9c90e9dd1"
+            ],
+            "locator": "go+golang.org/x/net$e18ecbb05110"
+          },
+          {
+            "imports": [],
+            "locator": "go+golang.org/x/sys$e5e7981a1069"
+          },
+          {
+            "imports": [],
+            "locator": "go+golang.org/x/term$7de9c90e9dd1"
+          },
+          {
+            "imports": [
+              "go+golang.org/x/tools$90fa682c2a6e"
+            ],
+            "locator": "go+golang.org/x/text$v0.3.6"
+          },
+          {
+            "imports": [],
+            "locator": "go+golang.org/x/tools$90fa682c2a6e"
+          },
+          {
+            "imports": [],
+            "locator": "go+golang.org/x/xerrors$9bdfabe68543"
+          },
+          {
+            "imports": [
+              "go+github.com/golang/protobuf$v1.5.0",
+              "go+github.com/google/go-cmp$v0.5.5"
+            ],
+            "locator": "go+google.golang.org/protobuf$v1.28.0"
+          },
+          {
+            "imports": [],
+            "locator": "go+gopkg.in/check.v1$10cb98267c6c"
+          },
+          {
+            "imports": [],
+            "locator": "go+gopkg.in/errgo.v2$v2.1.0"
+          },
+          {
+            "imports": [],
+            "locator": "go+gopkg.in/yaml.v2$v2.4.0"
+          },
+          {
+            "imports": [],
+            "locator": "go+gopkg.in/yaml.v3$496545a6307b"
+          }
+        ],
+        "Imports": [
+          "go+github.com/gin-gonic/gin$v1.8.1",
+          "go+github.com/joho/godotenv$v1.4.0",
+          "go+github.com/jrallison/go-workers$dbf81d0b75bb"
+        ],
+        "Succeeded": true
+      },
+      "GraphBreadth": "complete",
+      "Manifest": "/Users/htdocs/sast-scan/worker/",
+      "Name": "/Users/htdocs/sast-scan/worker/",
+      "OriginPaths": [
+        "go.mod"
+      ],
+      "Type": "gomod"
+    },
+    {
+      "AdditionalDependencyData": null,
+      "Build": {
+        "Artifact": "default",
+        "Dependencies": [
+          {
+            "imports": [],
+            "locator": "go+github.com/bitly/go-simplejson$v0.5.0"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/bmizerany/assert$b7ed37b82869"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/creack/pty$v1.1.9"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/customerio/gospec$a5cc0e48aa39"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/davecgh/go-spew$v1.1.1"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/garyburd/redigo$v1.6.4"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/gin-contrib/sse$v0.1.0"
+          },
+          {
+            "imports": [
+              "go+github.com/davecgh/go-spew$v1.1.1",
+              "go+github.com/gin-contrib/sse$v0.1.0",
+              "go+github.com/go-playground/locales$v0.14.0",
+              "go+github.com/go-playground/universal-translator$v0.18.0",
+              "go+github.com/go-playground/validator/v10$v10.10.0",
+              "go+github.com/goccy/go-json$v0.9.7",
+              "go+github.com/json-iterator/go$v1.1.12",
+              "go+github.com/leodido/go-urn$v1.2.1",
+              "go+github.com/mattn/go-isatty$v0.0.14",
+              "go+github.com/modern-go/concurrent$e0a39a4cb421",
+              "go+github.com/modern-go/reflect2$v1.0.2",
+              "go+github.com/pelletier/go-toml/v2$v2.0.1",
+              "go+github.com/pmezard/go-difflib$v1.0.0",
+              "go+github.com/stretchr/testify$v1.7.1",
+              "go+github.com/ugorji/go/codec$v1.2.7",
+              "go+golang.org/x/crypto$a769d52b0f97",
+              "go+golang.org/x/net$e18ecbb05110",
+              "go+golang.org/x/sys$e5e7981a1069",
+              "go+golang.org/x/text$v0.3.6",
+              "go+google.golang.org/protobuf$v1.28.0",
+              "go+gopkg.in/yaml.v2$v2.4.0",
+              "go+gopkg.in/yaml.v3$496545a6307b"
+            ],
+            "locator": "go+github.com/gin-gonic/gin$v1.8.1"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/go-playground/assert/v2$v2.0.1"
+          },
+          {
+            "imports": [
+              "go+golang.org/x/text$v0.3.6"
+            ],
+            "locator": "go+github.com/go-playground/locales$v0.14.0"
+          },
+          {
+            "imports": [
+              "go+github.com/go-playground/locales$v0.14.0"
+            ],
+            "locator": "go+github.com/go-playground/universal-translator$v0.18.0"
+          },
+          {
+            "imports": [
+              "go+github.com/davecgh/go-spew$v1.1.1",
+              "go+github.com/go-playground/assert/v2$v2.0.1",
+              "go+github.com/go-playground/locales$v0.14.0",
+              "go+github.com/go-playground/universal-translator$v0.18.0",
+              "go+github.com/kr/pretty$v0.3.0",
+              "go+github.com/leodido/go-urn$v1.2.1",
+              "go+github.com/rogpeppe/go-internal$v1.8.0",
+              "go+golang.org/x/crypto$a769d52b0f97",
+              "go+golang.org/x/sys$e5e7981a1069",
+              "go+golang.org/x/text$v0.3.6",
+              "go+gopkg.in/check.v1$10cb98267c6c",
+              "go+gopkg.in/yaml.v3$496545a6307b"
+            ],
+            "locator": "go+github.com/go-playground/validator/v10$v10.10.0"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/goccy/go-json$v0.9.7"
+          },
+          {
+            "imports": [
+              "go+github.com/google/go-cmp$v0.5.5"
+            ],
+            "locator": "go+github.com/golang/protobuf$v1.5.0"
+          },
+          {
+            "imports": [
+              "go+golang.org/x/xerrors$9bdfabe68543"
+            ],
+            "locator": "go+github.com/google/go-cmp$v0.5.5"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/google/gofuzz$v1.0.0"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/joho/godotenv$v1.4.0"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/jrallison/go-workers$dbf81d0b75bb"
+          },
+          {
+            "imports": [
+              "go+github.com/davecgh/go-spew$v1.1.1",
+              "go+github.com/google/gofuzz$v1.0.0",
+              "go+github.com/modern-go/concurrent$e0a39a4cb421",
+              "go+github.com/modern-go/reflect2$v1.0.2"
+            ],
+            "locator": "go+github.com/json-iterator/go$v1.1.12"
+          },
+          {
+            "imports": [
+              "go+github.com/kr/text$v0.2.0"
+            ],
+            "locator": "go+github.com/kr/pretty$v0.3.0"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/kr/pty$v1.1.1"
+          },
+          {
+            "imports": [
+              "go+github.com/creack/pty$v1.1.9"
+            ],
+            "locator": "go+github.com/kr/text$v0.2.0"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/leodido/go-urn$v1.2.1"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/mattn/go-isatty$v0.0.14"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/modern-go/concurrent$e0a39a4cb421"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/modern-go/reflect2$v1.0.2"
+          },
+          {
+            "imports": [
+              "go+github.com/stretchr/testify$v1.7.1"
+            ],
+            "locator": "go+github.com/pelletier/go-toml/v2$v2.0.1"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/pkg/diff$20ebb0f2a09e"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/pmezard/go-difflib$v1.0.0"
+          },
+          {
+            "imports": [
+              "go+github.com/pkg/diff$20ebb0f2a09e",
+              "go+gopkg.in/errgo.v2$v2.1.0"
+            ],
+            "locator": "go+github.com/rogpeppe/go-internal$v1.8.0"
+          },
+          {
+            "imports": [],
+            "locator": "go+github.com/stretchr/objx$v0.1.0"
+          },
+          {
+            "imports": [
+              "go+github.com/pmezard/go-difflib$v1.0.0",
+              "go+github.com/stretchr/objx$v0.1.0"
+            ],
+            "locator": "go+github.com/stretchr/testify$v1.7.1"
+          },
+          {
+            "imports": [
+              "go+github.com/ugorji/go/codec$v1.2.7"
+            ],
+            "locator": "go+github.com/ugorji/go$v1.2.7"
+          },
+          {
+            "imports": [
+              "go+github.com/ugorji/go$v1.2.7"
+            ],
+            "locator": "go+github.com/ugorji/go/codec$v1.2.7"
+          },
+          {
+            "imports": [
+              "go+golang.org/x/net$e18ecbb05110",
+              "go+golang.org/x/term$7de9c90e9dd1"
+            ],
+            "locator": "go+golang.org/x/crypto$a769d52b0f97"
+          },
+          {
+            "imports": [
+              "go+golang.org/x/term$7de9c90e9dd1"
+            ],
+            "locator": "go+golang.org/x/net$e18ecbb05110"
+          },
+          {
+            "imports": [],
+            "locator": "go+golang.org/x/sys$e5e7981a1069"
+          },
+          {
+            "imports": [],
+            "locator": "go+golang.org/x/term$7de9c90e9dd1"
+          },
+          {
+            "imports": [
+              "go+golang.org/x/tools$90fa682c2a6e"
+            ],
+            "locator": "go+golang.org/x/text$v0.3.6"
+          },
+          {
+            "imports": [],
+            "locator": "go+golang.org/x/tools$90fa682c2a6e"
+          },
+          {
+            "imports": [],
+            "locator": "go+golang.org/x/xerrors$9bdfabe68543"
+          },
+          {
+            "imports": [
+              "go+github.com/golang/protobuf$v1.5.0",
+              "go+github.com/google/go-cmp$v0.5.5"
+            ],
+            "locator": "go+google.golang.org/protobuf$v1.28.0"
+          },
+          {
+            "imports": [],
+            "locator": "go+gopkg.in/check.v1$10cb98267c6c"
+          },
+          {
+            "imports": [],
+            "locator": "go+gopkg.in/errgo.v2$v2.1.0"
+          },
+          {
+            "imports": [],
+            "locator": "go+gopkg.in/yaml.v2$v2.4.0"
+          },
+          {
+            "imports": [],
+            "locator": "go+gopkg.in/yaml.v3$496545a6307b"
+          }
+        ],
+        "Imports": [
+          "go+github.com/gin-gonic/gin$v1.8.1",
+          "go+github.com/joho/godotenv$v1.4.0",
+          "go+github.com/jrallison/go-workers$dbf81d0b75bb"
+        ],
+        "Succeeded": true
+      },
+      "GraphBreadth": "complete",
+      "Manifest": "/Users/htdocs/sast-scan/worker/",
+      "Name": "/Users/htdocs/sast-scan/worker/",
+      "OriginPaths": [
+        "go.mod"
+      ],
+      "Type": "gomod"
+    }
+  ]
+}

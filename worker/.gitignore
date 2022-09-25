@@ -1,0 +1,6 @@
+.env
+fossa
+fossa_*.zip
+api
+worker_scan
+worker_search
