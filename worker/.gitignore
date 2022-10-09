@@ -4,3 +4,5 @@ fossa_*.zip
 api
 worker_scan
 worker_search
+nvd.sqlite3
+nvd_cve
